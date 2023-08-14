@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indextp1.css">
+    <title>TP 1 : HTML ET CSS</title>
+</head>
+
+<body>
+
+    <div id="Menu">
+        <header>
+            <nav>
+                <ul id="ListeMenu">
+                    <li><a href="#AncreApropos">A propos</a></li>
+                    <li><a href="#AncreFormation">Formation</a></li>
+                    <li><a href="#AncreExpérience">Expérience</a></li>
+                    <li><a href="#AncreContact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <h1 id="Métier">Développeur Web</h1>
+
+    <div id="DivPhotoCV">
+        <a href="https://fr.linkedin.com/in/mouloud-mouats-nextadvance" title="Mouloud MOUATS" target="_blank"><img
+            id="ImgPhotoCV" src="PhotoCV.png" width="8%" alt="Photo" title="Mouloud MOUATS"></a>
+    </div>
+
+    <h2 id="Identité">Mouloud Mouats</h2>
+
+
+    <div id="apropos">
+        <h3 id="AncreApropos">A propos</h3>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus ipsum nemo placeat, cumque
+            dignissimos eius ducimus consequuntur, magnam architecto libero nisi amet totam asperiores explicabo
+            eligendi dolorem iusto unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus
+            ipsum
+            nemo placeat, cumque
+            dignissimos eius ducimus consequuntur, magnam architecto libero nisi amet totam asperiores explicabo
+            eligendi dolorem iusto unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus
+            ipsum
+            nemo placeat, cumque
+            dignissimos eius ducimus consequuntur, magnam architecto libero nisi amet totam asperiores explicabo
+            eligendi dolorem iusto unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus
+            ipsum
+            nemo placeat, cumque
+            dignissimos eius ducimus consequuntur, magnam architecto libero nisi amet totam asperiores explicabo
+            eligendi dolorem iusto unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus
+            ipsum
+            nemo placeat, cumque
+            dignissimos eius ducimus consequuntur, magnam architecto libero nisi amet totam asperiores explicabo
+            eligendi dolorem iusto unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus
+            ipsum
+            nemo placeat, cumque
+            dignissimos eius ducimus consequuntur, magnam architecto libero nisi amet totam asperiores explicabo
+            eligendi dolorem iusto unde.</p>
+    </div>
+
+    <div id="DivFormation">
+        <h3 id="AncreFormation">Formation</h3>
+
+        <div class="FlexContainer">
+
+            <div class="flexItem">
+                <p>Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                    doloribus ipsum nemo placeat,
+                    cumque dignissimos eius ducimus consequuntur,
+                    magnam architecto libero nisi amet totam asperiores explicabo eligendi dolorem iusto unde.</p>
+            </div>
+
+            <div class="flexItem">
+                <p>Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                    doloribus ipsum nemo placeat,
+                    cumque dignissimos eius ducimus consequuntur,
+                    magnam architecto libero nisi amet totam asperiores explicabo eligendi dolorem iusto unde.</p>
+            </div>
+
+            <div class="flexItem">
+                <p>Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                    doloribus ipsum nemo placeat,
+                    cumque dignissimos eius ducimus consequuntur,
+                    magnam architecto libero nisi amet totam asperiores explicabo eligendi dolorem iusto unde.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="Expérience">
+
+        <h3 id="AncreExpérience">Expérience</h3>
+
+        <div class="DivExpérience">
+
+            <div class="DivListeExpériences">
+
+                <ul>
+
+                    <li><b>2017/2020</b> : Engenius coprp</li>
+                    <li><b>2013/2014</b> : Computacenter</li>
+                    <li><b>2012/2013</b> : Global Académie</li>
+                    <li><b>2010/2011</b> : SR3 Groupe</li>
+                </ul>
+
+            </div>
+
+            <div class="DivListeExpériences">
+
+                <ul>
+                    <li><b>2017/2020</b> : Engenius coprp</li>
+                    <li><b>2013/2014</b> : Computacenter</li>
+                    <li><b>2012/2013</b> : Global Académie</li>
+                    <li><b>2010/2011</b> : SR3 Groupe</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 id="AncreContact">Nous contacter</h3>
+
+    <div id="contact">
+
+        <fieldset>
+
+            <form action="envoi.php" method="post">
+
+                <div class="Identités">
+                    <div>
+                        <label for="Nom"><b>Nom</b></label>
+                        <input type="text" name="Nom">
+                    </div>
+
+                    <div id="Prénom">
+                        <label for="Prénom"><b>Prénom</b></label>
+                        <input type="text" name="Prénom">
+                    </div>
+                </div>
+
+                <div id="divtextarea">
+                    <textarea name="Message" cols="50" rows="10">
+                Votre message ici.
+                </textarea>
+                </div>
+
+                <input type="submit" value="Envoyer" id="Envoyer">
+
+
+            </form>
+
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>

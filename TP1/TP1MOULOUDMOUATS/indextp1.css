@@ -1,0 +1,140 @@
+#Menu {
+    background-color: aqua;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#Menu #ListeMenu li {
+    background-color: aqua;
+    list-style-type: none;
+    display: inline;
+    margin-right: 8%;
+    margin-left: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Menu #ListeMenu li:hover {
+    background-color: brown;
+}
+
+#Métier {
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#Identité {
+    text-align: center;
+}
+
+#DivPhotoCV {
+    text-align: center
+}
+
+#ImgPhotoCV {
+    border-radius: 80%;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+#apropos {
+    background-color: aqua;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
+}
+
+#DivFormation {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.flexItem {
+    width: 20%;
+    max-width: 300px;
+}
+
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+#Expérience {
+    background-color: aqua;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.DivExpérience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.DivListeExpériences {
+    width: 20%;
+    max-width: 300px;
+}
+
+.DivListeExpériences ul li {
+    list-style-type: none;
+}
+
+#contact {
+    background-color: aqua;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    border-radius: 20%;
+    width: 535px
+}
+
+fieldset {
+    border-radius: 20%;
+    width: 505px;
+}
+
+.Identités {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 9%;
+}
+
+#Prénom {
+    margin-left: 2%;
+}
+
+textarea {
+    width: 75%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+#divtextarea {
+    display: flex;
+    margin-left: 5%;
+}
+
+#Envoyer {
+    display: flex;
+    margin-left: 16%;
+    margin-top: 2.5%;
+}
